@@ -1,0 +1,64 @@
+<svg width="1080" height="600" viewBox="0 0 1080 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .ui    { font: 28px 'Press Start 2P', 'VT323', monospace; fill: #111; }
+      .mono  { font: 22px 'Courier New', monospace; fill: #111; }
+    </style>
+  </defs>
+
+  <!-- Background grass -->
+  <rect width="1080" height="600" fill="#3f7a3f"/>
+  <!-- Road -->
+  <rect x="240" y="0" width="600" height="600" fill="#333"/>
+  <!-- Center dashed line -->
+  <g stroke="#eee" stroke-width="6">
+    <line x1="540" y1="0" x2="540" y2="60"/>
+    <line x1="540" y1="100" x2="540" y2="160"/>
+    <line x1="540" y1="200" x2="540" y2="260"/>
+    <line x1="540" y1="300" x2="540" y2="360"/>
+    <line x1="540" y1="400" x2="540" y2="460"/>
+    <line x1="540" y1="500" x2="540" y2="560"/>
+  </g>
+
+  <!-- Car -->
+  <g transform="translate(510,420)">
+    <rect x="-30" y="0" width="60" height="100" rx="6" fill="#d82426" stroke="#111" stroke-width="4"/>
+    <rect x="-24" y="12" width="48" height="30" fill="#fff" opacity="0.9"/>
+    <rect x="-24" y="58" width="48" height="28" fill="#fff" opacity="0.9"/>
+  </g>
+
+  <!-- Retro RPG-style dialog box with kid portrait -->
+  <g transform="translate(120,460)">
+    <!-- Panel -->
+    <rect x="0" y="0" width="840" height="120" fill="#f5f5f5" stroke="#111" stroke-width="6"/>
+    <!-- Pixel border pattern -->
+    <rect x="6" y="6" width="828" height="108" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+
+    <!-- Kid portrait (8-bit) 64x64 area constructed from 8px pixels -->
+    <g transform="translate(20,28) scale(8)">
+      <!-- hair -->
+      <rect x="2" y="0" width="4" height="1" fill="#5b3a29"/>
+      <rect x="1" y="1" width="6" height="1" fill="#5b3a29"/>
+      <rect x="1" y="2" width="6" height="1" fill="#5b3a29"/>
+      <!-- face -->
+      <rect x="2" y="3" width="4" height="3" fill="#ffd6c9"/>
+      <!-- eyes -->
+      <rect x="3" y="4" width="1" height="1" fill="#111"/>
+      <rect x="5" y="4" width="1" height="1" fill="#111"/>
+      <!-- mouth -->
+      <rect x="4" y="6" width="1" height="1" fill="#c0392b"/>
+      <!-- shirt -->
+      <rect x="1" y="7" width="6" height="1" fill="#2d88ff"/>
+    </g>
+
+    <!-- Name tag -->
+    <rect x="100" y="10" width="120" height="28" rx="4" fill="#2d88ff"/>
+    <text class="ui" x="108" y="32" fill="#fff">KID</text>
+
+    <!-- Text -->
+    <text class="ui" x="100" y="74">Are we there yet?</text>
+  </g>
+
+  <text class="mono" x="20" y="40">Retro Option A: RPG Portrait Dialog</text>
+</svg>
+
