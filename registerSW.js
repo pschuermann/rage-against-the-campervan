@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/rage-against-the-campervan/sw.js', { scope: '/rage-against-the-campervan/' })})}
