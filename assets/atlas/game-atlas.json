@@ -73,7 +73,7 @@
 					}
 				},
 				{
-					"filename": "campervan-apollo",
+					"filename": "player-xtrail",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -94,27 +94,6 @@
 					}
 				},
 				{
-					"filename": "player-xtrail",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 128,
-						"h": 128
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 128,
-						"h": 128
-					},
-					"frame": {
-						"x": 48,
-						"y": 1261,
-						"w": 128,
-						"h": 128
-					}
-				},
-				{
 					"filename": "tree-pohutukawa-2",
 					"rotated": false,
 					"trimmed": true,
@@ -129,9 +108,30 @@
 						"h": 123
 					},
 					"frame": {
+						"x": 48,
+						"y": 1261,
+						"w": 88,
+						"h": 123
+					}
+				},
+				{
+					"filename": "tree-pine",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 18,
+						"w": 68,
+						"h": 123
+					},
+					"frame": {
 						"x": 80,
 						"y": 1099,
-						"w": 88,
+						"w": 68,
 						"h": 123
 					}
 				},
@@ -178,48 +178,6 @@
 					}
 				},
 				{
-					"filename": "bush-tussock-snow",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 64,
-						"h": 96
-					},
-					"spriteSourceSize": {
-						"x": 14,
-						"y": 33,
-						"w": 37,
-						"h": 30
-					},
-					"frame": {
-						"x": 167,
-						"y": 1226,
-						"w": 37,
-						"h": 30
-					}
-				},
-				{
-					"filename": "tree-pine",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 128,
-						"h": 192
-					},
-					"spriteSourceSize": {
-						"x": 30,
-						"y": 18,
-						"w": 68,
-						"h": 123
-					},
-					"frame": {
-						"x": 172,
-						"y": 1099,
-						"w": 68,
-						"h": 123
-					}
-				},
-				{
 					"filename": "campervan-britz",
 					"rotated": false,
 					"trimmed": true,
@@ -234,10 +192,31 @@
 						"h": 121
 					},
 					"frame": {
-						"x": 2,
-						"y": 1536,
+						"x": 152,
+						"y": 1099,
 						"w": 104,
 						"h": 121
+					}
+				},
+				{
+					"filename": "campervan-apollo",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 4,
+						"w": 96,
+						"h": 114
+					},
+					"frame": {
+						"x": 2,
+						"y": 1536,
+						"w": 96,
+						"h": 114
 					}
 				},
 				{
@@ -256,7 +235,7 @@
 					},
 					"frame": {
 						"x": 2,
-						"y": 1661,
+						"y": 1654,
 						"w": 87,
 						"h": 111
 					}
@@ -277,7 +256,7 @@
 					},
 					"frame": {
 						"x": 2,
-						"y": 1776,
+						"y": 1769,
 						"w": 79,
 						"h": 107
 					}
@@ -298,13 +277,13 @@
 					},
 					"frame": {
 						"x": 2,
-						"y": 1887,
+						"y": 1880,
 						"w": 68,
 						"h": 85
 					}
 				},
 				{
-					"filename": "tree-willow",
+					"filename": "tree-pohutukawa-1",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -312,16 +291,16 @@
 						"h": 192
 					},
 					"spriteSourceSize": {
-						"x": 25,
-						"y": 72,
-						"w": 80,
-						"h": 67
+						"x": 13,
+						"y": 54,
+						"w": 101,
+						"h": 77
 					},
 					"frame": {
 						"x": 2,
-						"y": 1976,
-						"w": 80,
-						"h": 67
+						"y": 1969,
+						"w": 101,
+						"h": 77
 					}
 				},
 				{
@@ -340,9 +319,93 @@
 					},
 					"frame": {
 						"x": 74,
-						"y": 1887,
+						"y": 1880,
 						"w": 98,
 						"h": 83
+					}
+				},
+				{
+					"filename": "tree-nikau",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 63,
+						"w": 72,
+						"h": 78
+					},
+					"frame": {
+						"x": 107,
+						"y": 1967,
+						"w": 72,
+						"h": 78
+					}
+				},
+				{
+					"filename": "tree-macrocarpa",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 71,
+						"w": 106,
+						"h": 74
+					},
+					"frame": {
+						"x": 183,
+						"y": 1967,
+						"w": 106,
+						"h": 74
+					}
+				},
+				{
+					"filename": "tree-manuka",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 48,
+						"w": 90,
+						"h": 74
+					},
+					"frame": {
+						"x": 293,
+						"y": 1967,
+						"w": 90,
+						"h": 74
+					}
+				},
+				{
+					"filename": "tree-willow",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 72,
+						"w": 80,
+						"h": 67
+					},
+					"frame": {
+						"x": 387,
+						"y": 1967,
+						"w": 80,
+						"h": 67
 					}
 				},
 				{
@@ -361,7 +424,7 @@
 					},
 					"frame": {
 						"x": 85,
-						"y": 1776,
+						"y": 1769,
 						"w": 66,
 						"h": 80
 					}
@@ -382,7 +445,7 @@
 					},
 					"frame": {
 						"x": 85,
-						"y": 1860,
+						"y": 1853,
 						"w": 54,
 						"h": 22
 					}
@@ -403,7 +466,7 @@
 					},
 					"frame": {
 						"x": 143,
-						"y": 1860,
+						"y": 1853,
 						"w": 34,
 						"h": 21
 					}
@@ -423,9 +486,30 @@
 						"h": 80
 					},
 					"frame": {
-						"x": 93,
-						"y": 1661,
+						"x": 176,
+						"y": 1878,
 						"w": 65,
+						"h": 80
+					}
+				},
+				{
+					"filename": "car-front-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 80
+					},
+					"frame": {
+						"x": 93,
+						"y": 1654,
+						"w": 64,
 						"h": 80
 					}
 				},
@@ -445,7 +529,7 @@
 					},
 					"frame": {
 						"x": 93,
-						"y": 1745,
+						"y": 1738,
 						"w": 45,
 						"h": 27
 					}
@@ -466,114 +550,9 @@
 					},
 					"frame": {
 						"x": 142,
-						"y": 1745,
+						"y": 1738,
 						"w": 44,
 						"h": 25
-					}
-				},
-				{
-					"filename": "car-front-1",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 64,
-						"h": 80
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 64,
-						"h": 80
-					},
-					"frame": {
-						"x": 155,
-						"y": 1774,
-						"w": 64,
-						"h": 80
-					}
-				},
-				{
-					"filename": "farm-haybale",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 64,
-						"h": 64
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 13,
-						"w": 40,
-						"h": 37
-					},
-					"frame": {
-						"x": 86,
-						"y": 1974,
-						"w": 40,
-						"h": 37
-					}
-				},
-				{
-					"filename": "bush-fern",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 64,
-						"h": 96
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 31,
-						"w": 39,
-						"h": 29
-					},
-					"frame": {
-						"x": 86,
-						"y": 2015,
-						"w": 39,
-						"h": 29
-					}
-				},
-				{
-					"filename": "farm-cow",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 64,
-						"h": 96
-					},
-					"spriteSourceSize": {
-						"x": 16,
-						"y": 35,
-						"w": 33,
-						"h": 28
-					},
-					"frame": {
-						"x": 129,
-						"y": 2015,
-						"w": 33,
-						"h": 28
-					}
-				},
-				{
-					"filename": "rock-boulder",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 96,
-						"h": 64
-					},
-					"spriteSourceSize": {
-						"x": 24,
-						"y": 14,
-						"w": 48,
-						"h": 35
-					},
-					"frame": {
-						"x": 130,
-						"y": 1974,
-						"w": 48,
-						"h": 35
 					}
 				},
 				{
@@ -591,73 +570,10 @@
 						"h": 80
 					},
 					"frame": {
-						"x": 176,
-						"y": 1885,
+						"x": 155,
+						"y": 1767,
 						"w": 58,
 						"h": 80
-					}
-				},
-				{
-					"filename": "tree-pohutukawa-1",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 128,
-						"h": 192
-					},
-					"spriteSourceSize": {
-						"x": 13,
-						"y": 54,
-						"w": 101,
-						"h": 77
-					},
-					"frame": {
-						"x": 182,
-						"y": 1969,
-						"w": 101,
-						"h": 77
-					}
-				},
-				{
-					"filename": "tree-macrocarpa",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 128,
-						"h": 192
-					},
-					"spriteSourceSize": {
-						"x": 15,
-						"y": 71,
-						"w": 106,
-						"h": 74
-					},
-					"frame": {
-						"x": 287,
-						"y": 1969,
-						"w": 106,
-						"h": 74
-					}
-				},
-				{
-					"filename": "tree-manuka",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 128,
-						"h": 192
-					},
-					"spriteSourceSize": {
-						"x": 20,
-						"y": 48,
-						"w": 90,
-						"h": 74
-					},
-					"frame": {
-						"x": 397,
-						"y": 1969,
-						"w": 90,
-						"h": 74
 					}
 				},
 				{
@@ -675,8 +591,8 @@
 						"h": 19
 					},
 					"frame": {
-						"x": 181,
-						"y": 1858,
+						"x": 190,
+						"y": 1851,
 						"w": 64,
 						"h": 19
 					}
@@ -696,8 +612,8 @@
 						"h": 80
 					},
 					"frame": {
-						"x": 238,
-						"y": 1881,
+						"x": 245,
+						"y": 1874,
 						"w": 56,
 						"h": 80
 					}
@@ -717,10 +633,115 @@
 						"h": 80
 					},
 					"frame": {
-						"x": 110,
+						"x": 102,
 						"y": 1536,
 						"w": 51,
 						"h": 80
+					}
+				},
+				{
+					"filename": "bush-tussock-snow",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 33,
+						"w": 37,
+						"h": 30
+					},
+					"frame": {
+						"x": 102,
+						"y": 1620,
+						"w": 37,
+						"h": 30
+					}
+				},
+				{
+					"filename": "bush-fern",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 31,
+						"w": 39,
+						"h": 29
+					},
+					"frame": {
+						"x": 143,
+						"y": 1620,
+						"w": 39,
+						"h": 29
+					}
+				},
+				{
+					"filename": "farm-haybale",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 13,
+						"w": 40,
+						"h": 37
+					},
+					"frame": {
+						"x": 161,
+						"y": 1653,
+						"w": 40,
+						"h": 37
+					}
+				},
+				{
+					"filename": "rock-boulder",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 14,
+						"w": 48,
+						"h": 35
+					},
+					"frame": {
+						"x": 186,
+						"y": 1694,
+						"w": 48,
+						"h": 35
+					}
+				},
+				{
+					"filename": "farm-cow",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 35,
+						"w": 33,
+						"h": 28
+					},
+					"frame": {
+						"x": 190,
+						"y": 1733,
+						"w": 33,
+						"h": 28
 					}
 				},
 				{
@@ -738,52 +759,10 @@
 						"h": 34
 					},
 					"frame": {
-						"x": 110,
-						"y": 1620,
+						"x": 217,
+						"y": 1765,
 						"w": 46,
 						"h": 34
-					}
-				},
-				{
-					"filename": "rock-boulder-snow",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 64,
-						"h": 96
-					},
-					"spriteSourceSize": {
-						"x": 11,
-						"y": 28,
-						"w": 43,
-						"h": 34
-					},
-					"frame": {
-						"x": 160,
-						"y": 1620,
-						"w": 43,
-						"h": 34
-					}
-				},
-				{
-					"filename": "tree-nikau",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 128,
-						"h": 192
-					},
-					"spriteSourceSize": {
-						"x": 29,
-						"y": 63,
-						"w": 72,
-						"h": 78
-					},
-					"frame": {
-						"x": 162,
-						"y": 1658,
-						"w": 72,
-						"h": 78
 					}
 				},
 				{
@@ -801,10 +780,31 @@
 						"h": 25
 					},
 					"frame": {
-						"x": 190,
-						"y": 1740,
+						"x": 227,
+						"y": 1733,
 						"w": 41,
 						"h": 25
+					}
+				},
+				{
+					"filename": "rock-boulder-snow",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 28,
+						"w": 43,
+						"h": 34
+					},
+					"frame": {
+						"x": 217,
+						"y": 1803,
+						"w": 43,
+						"h": 34
 					}
 				},
 				{
@@ -822,8 +822,8 @@
 						"h": 18
 					},
 					"frame": {
-						"x": 223,
-						"y": 1769,
+						"x": 258,
+						"y": 1841,
 						"w": 58,
 						"h": 18
 					}
@@ -843,8 +843,8 @@
 						"h": 18
 					},
 					"frame": {
-						"x": 235,
-						"y": 1740,
+						"x": 264,
+						"y": 1803,
 						"w": 49,
 						"h": 18
 					}
